@@ -1,5 +1,5 @@
 import react from "react";
-export function About(){
+export function Contact(){
     return(
         <section id="contact">
             <div className="container" data-aos="fade-up">

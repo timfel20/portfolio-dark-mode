@@ -5,7 +5,7 @@ export function Hero(){
             <div className="hero-container">
             <div data-aos="fade-in">
                 <div className="hero-logo">
-                <img className="" src="../../public/assets/img/logo.png" alt="Imperial"/>
+                <img className="" src="assets/img/logo.png" alt="Imperial"/>
                 </div>
 
                 <h1>Welcome to Imperial studios</h1>
@@ -16,6 +16,6 @@ export function Hero(){
                 </div>
             </div>
             </div>
-        </section>
+       </section>
     )
 }

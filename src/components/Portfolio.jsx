@@ -1,5 +1,5 @@
 import react from "react";
-export function About(){
+export function Portfolio(){
     return(
         <section id="portfolio">
             <div className="container" data-aos="fade-up">
