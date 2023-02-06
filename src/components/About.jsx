@@ -1,41 +1,33 @@
 import react from "react";
 export function About(){
     return(
-        <div>
-            <section id="about">
-            <div className="container" data-aos="fade-up">
+     <div>
+        <section id="about" className="about-mf sect-pt4 route">
+            <div className="container">
                 <div className="row">
-                <div className="col-md-12">
-                    <h3 className="section-title">About Us</h3>
-                    <div className="section-title-divider"></div>
-                    <p className="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
-                </div>
+                        <div className="about-me pt-4 pt-md-0">
+                            <div className="title-box-2">
+                            <h5 className="title-left mt-2">
+                                About me
+                            </h5>
+                            </div>
+                            <div className="about-img">
+                                <img src="assets/img/fel-img.jpg" className="img-fluid-about rounded-circle b-shadow-a" alt=""/>
+                            </div>
+                            <p className="lead">
+                             I love creativity. Seeing my thoughts being brought to life and projected into admiration is my goal. I find
+                             coding interesting and love the logical part of it.
+                            </p>
+                            <p className="lead">
+                            I am a full-stack web developer with passion for building admirable websites and applications. Specialized in PHP, Angular and React with a knowledge of Java and other technologies necessary for having a clean, relieable code and working in a team.
+                            </p>
+                           {/*  <p className="lead">
+                            I have created an application with React, Javascript, Spring and Laravel which had given me a very deep knowledge about Javascript and how to use back end with front end
+                            </p> */}
+                        </div>
                 </div>
             </div>
-            <div className="container about-container" data-aos="fade-up" data-aos-delay="200">
-                <div className="row">
-
-                <div className="col-lg-6 about-img">
-                    <img src="assets/img/about-img.jpg" alt=""/>
-                </div>
-
-                <div className="col-md-6 about-content">
-                    <h2 className="about-title">We provide great services and ideass</h2>
-                    <p className="about-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate
-                    </p>
-                    <p className="about-text">
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                    id est laborum
-                    </p>
-                    <p className="about-text">
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt molli.
-                    </p>
-                </div>
-                </div>
-            </div>
-            </section>
-        </div>
+        </section>
+     </div>
     )
 }

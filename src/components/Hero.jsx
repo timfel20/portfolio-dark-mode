@@ -1,21 +1,19 @@
 import React from "react";
+
 export function Hero(){
     return(
-        <section id="hero">
-            <div className="hero-container">
-            <div data-aos="fade-in">
-                <div className="hero-logo">
-                <img className="" src="assets/img/logo.png" alt="Imperial"/>
+        <div id="hero" className="hero route bg-image">
+            <div className="overlay-itro"></div>
+            <div className="hero-content display-table">
+              <div className="table-cell">
+                <div className="container">
+                  <h2 className="mb-4 text-white"></h2>
+                  <h2 className="hero-title-second">FELICIA FOLA</h2>
+                  <p className="hero-subtitle mb-5"><span className="typed" data-typed-items="Full Stack Web Developer"></span></p>
+                  <p className="pt-12"><a className="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p>
                 </div>
-
-                <h1>Welcome to Imperial studios</h1>
-                <h2>We create <span className="typed" data-typed-items="beautiful graphics, functional websites, working mobile apps"></span></h2>
-                <div className="actions">
-                <a href="#about" className="btn-get-started">Get Strated</a>
-                <a href="#services" className="btn-services">Our Services</a>
-                </div>
+              </div>
             </div>
-            </div>
-       </section>
+       </div>
     )
 }

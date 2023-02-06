@@ -1,18 +1,56 @@
 import react from "react";
 export function Subscribe(){
     return(
-        <section id="subscribe">
-            <div className="container" data-aos="fade-up">
+        <div className="section-counter paralax-mf bg-image" styles="background-image: url(assets/img/counters-bg.jpg)">
+            <div className="overlay-mf"></div>
+            <div className="container position-relative">
                 <div className="row">
-                <div className="col-md-8">
-                    <h3 className="subscribe-title">Subscribe For Updates</h3>
-                    <p className="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
+                <div className="col-sm-3 col-lg-3">
+                    <div className="counter-box counter-box pt-4 pt-md-0">
+                    <div className="counter-ico">
+                        <span className="ico-circle"><i className="bi bi-check"></i></span>
+                    </div>
+                    <div className="counter-num">
+                        <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" className="counter purecounter"></p>
+                        <span className="counter-text">WORKS COMPLETED</span>
+                    </div>
+                    </div>
                 </div>
-                <div className="col-md-4 subscribe-btn-container">
-                    <a className="subscribe-btn" href="#">Subscribe Now</a>
+                <div className="col-sm-3 col-lg-3">
+                    <div className="counter-box pt-4 pt-md-0">
+                    <div className="counter-ico">
+                        <span className="ico-circle"><i className="bi bi-journal-richtext"></i></span>
+                    </div>
+                    <div className="counter-num">
+                        <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" className="counter purecounter"></p>
+                        <span className="counter-text">YEARS OF EXPERIENCE</span>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-sm-3 col-lg-3">
+                    <div className="counter-box pt-4 pt-md-0">
+                    <div className="counter-ico">
+                        <span className="ico-circle"><i className="bi bi-people"></i></span>
+                    </div>
+                    <div className="counter-num">
+                        <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" className="counter purecounter"></p>
+                        <span className="counter-text">TOTAL CLIENTS</span>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-sm-3 col-lg-3">
+                    <div className="counter-box pt-4 pt-md-0">
+                    <div className="counter-ico">
+                        <span className="ico-circle"><i className="bi bi-award"></i></span>
+                    </div>
+                    <div className="counter-num">
+                        <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" className="counter purecounter"></p>
+                        <span className="counter-text">AWARD WON</span>
+                    </div>
+                    </div>
                 </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

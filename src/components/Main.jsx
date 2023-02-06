@@ -3,12 +3,12 @@ import { Hero } from "./Hero";
 import { Navbar } from "./Navbar";
 import { About } from "./About";
 import { Service } from "./Service";
-import { Subscribe } from "./Subscribe";
+/* import { Subscribe } from "./Subscribe"; */
 import { Portfolio } from "./Portfolio";
-import { Testimonials } from "./Testimonials";
-import { Team } from "./Team";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
+import { Blog } from "./Blog"; 
+
 export function Main(){
     return(
         <main id="main">
@@ -16,12 +16,14 @@ export function Main(){
           <Hero/>
           <About/>
           <Service/>
-          <Subscribe/>
+         {/*  <Subscribe/> */}
           <Portfolio/>
-          <Testimonials/>
-          <Team/>
+          <Blog/>
           <Contact/>
           <Footer/>
+           
+          <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
         </main>
     )
 }

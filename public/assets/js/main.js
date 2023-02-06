@@ -1,9 +1,3 @@
-/**
-* Template Name: Imperial - v5.7.0
-* Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -45,7 +39,7 @@
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
-    let position = window.scrollY + 300
+    let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return
       let section = select(navbarlink.hash)
@@ -67,6 +61,10 @@
     let header = select('#header')
     let offset = header.offsetHeight
 
+    if (!header.classList.contains('header-scrolled')) {
+      offset -= 16
+    }
+
     let elementPos = select(el).offsetTop
     window.scrollTo({
       top: elementPos - offset,
@@ -75,23 +73,19 @@
   }
 
   /**
-   * Header fixed top on scroll
+   * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
   if (selectHeader) {
-    let headerOffset = selectHeader.offsetTop
-    let nextElement = selectHeader.nextElementSibling
-    const headerFixed = () => {
-      if ((headerOffset - window.scrollY) <= 0) {
-        selectHeader.classList.add('fixed-top')
-        nextElement.classList.add('scrolled-offset')
+    const headerScrolled = () => {
+      if (window.scrollY > 100) {
+        selectHeader.classList.add('header-scrolled')
       } else {
-        selectHeader.classList.remove('fixed-top')
-        nextElement.classList.remove('scrolled-offset')
+        selectHeader.classList.remove('header-scrolled')
       }
     }
-    window.addEventListener('load', headerFixed)
-    onscroll(document, headerFixed)
+    window.addEventListener('load', headerScrolled)
+    onscroll(document, headerScrolled)
   }
 
   /**
@@ -159,19 +153,7 @@
   });
 
   /**
-   * Preloader
-   */
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        preloader.remove()
-      }, 100);
-    });
-  }
-
-  /**
-   * Hero type effect
+   * Intro type effect
    */
   const typed = select('.typed')
   if (typed) {
@@ -187,39 +169,28 @@
   }
 
   /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        aos_init();
-      }, true);
-    }
-
-  });
-
-  /**
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
+  });
+
+  /**
+   * Testimonials slider
+   */
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
   });
 
   /**
@@ -240,18 +211,112 @@
   });
 
   /**
-   * Animation on scroll
+   * Preloader
    */
-  function aos_init() {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
-      once: true,
-      mirror: false
+  let preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
     });
   }
-  window.addEventListener('load', () => {
-    aos_init();
-  });
 
 })()
+
+
+var carousel = document.querySelector('.slider');
+var carouselInner = document.querySelector('.slide-track');
+var startXx;
+var x;
+var pressed = false;
+
+carouselInner.addEventListener("mousedown", (e) => {
+  pressed = true;
+  // just taking the distance when you press the mouse(note it's refering to carousel inner)
+  //we're substracting because the inner is not gonna be fixed to a position so we're calculating the startXx regardles of the position of the carouselInner
+  startXx = e.pageX - carouselInner.offsetLeft;
+  carouselInner.style.cursor = "grabbing";
+});
+carouselInner.addEventListener("mouseenter", () => {
+  carouselInner.style.cursor = "grab";
+  pressed = false
+});
+carouselInner.addEventListener("mouseup", () => {
+  carouselInner.style.cursor = "grab";
+  pressed = false;
+});
+carousel.addEventListener("mousemove", (e) => {
+  if (!pressed) return;
+  e.preventDefault();
+
+  // it's refering to carousel which is the container
+  x = e.pageX;
+ // aouside container - inner content
+  carouselInner.style.left = `${x - startXx}px`;
+  checkSlide();
+});
+
+var checkSlide = () =>{
+  outer = carousel.getBoundingClientRect();
+  inner = carouselInner.getBoundingClientRect()
+  if (parseInt(carouselInner.style.left) > 0 ) {
+    carouselInner.style.left = "0px";
+  }
+  if (inner.right < outer.right) {
+    carouselInner.style.left = `-${inner.width - outer.width}px`;
+  }
+}
+/* const checkBoundary = () => {
+  let outer = carousel.getBoundingClientRect();
+  let inner = carouselInner.getBoundingClientRect();
+
+  if (parseInt(carouselInner.style.left) > 0) {
+      carouselInner.style.left = "0px";
+  }
+
+  if (inner.right < outer.right) {
+      carouselInner.style.left = `-${inner.width - outer.width}px`;
+  }
+}; */
+/* var startX = 0;
+var currentX = 0;
+var translateX = 0;
+
+carousel.addEventListener('mousedown', onMouseDown);
+carousel.addEventListener('touchstart', onTouchStart);
+
+function onMouseDown(event) {
+  startX = event.clientX;
+  carousel.addEventListener('mousemove', onMouseMove);
+  carousel.addEventListener('mouseup', onMouseUp);
+}
+
+function onTouchStart(event) {
+  startX = event.touches[0].clientX;
+  carousel.addEventListener('touchmove', onTouchMove);
+  carousel.addEventListener('touchend', onTouchEnd);
+}
+
+function onMouseMove(event) {
+  event.preventDefault();
+  currentX = event.clientX;
+  translateX = currentX - startX;
+  carouselInner.style.left = translateX + 'px';
+}
+
+ function onTouchMove(event) {
+  event.preventDefault();
+  currentX = event.touches[0].clientX;
+  translateX = currentX - startX;
+  carouselInner.style.left = translateX + 'px';
+} 
+
+function onMouseUp(event) {
+  carousel.removeEventListener('mousemove', onMouseMove);
+  carousel.removeEventListener('mouseup', onMouseUp);
+}
+
+function onTouchEnd(event) {
+  carousel.removeEventListener('touchmove', onTouchMove);
+  carousel.removeEventListener('touchend', onTouchEnd);
+}
+ */

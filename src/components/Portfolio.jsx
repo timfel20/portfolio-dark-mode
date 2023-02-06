@@ -1,122 +1,184 @@
 import react from "react";
 export function Portfolio(){
     return(
-        <section id="portfolio">
-            <div className="container" data-aos="fade-up">
+        <section id="work" className="portfolio-mf sect-pt4 route">
+            <div className="container">
                 <div className="row">
-                <div className="col-md-12">
-                    <h3 className="section-title">Portfolio</h3>
-                    <div className="section-title-divider"></div>
-                    <p className="section-description">Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
-                </div>
-                </div>
-
-                <div className="row">
-                <div className="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                    <li data-filter="*" className="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-card">Card</li>
-                    <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
-                </div>
-
-                <div className="row portfolio-container">
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>App 1</h4>
-                    <p>App</p>
-                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="App 1"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                <div className="col-sm-12">
+                    <div className="title-box text-center">
+                    <h3 className="title-a">
+                        Portfolio
+                    </h3>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Web 3"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                </div>
+                <div className="row">                               
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://felicia-portfolio-240c06.netlify.app" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/port3.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className=" portfolio-title w-title">Pokemon Api</h2>
+                          <a href="https://felicia-portfolio-240c06.netlify.app"><button type="button" class="btn btn-outline-warning">View</button></a> 
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>App 2</h4>
-                    <p>App</p>
-                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="App 2"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://calc-prj.netlify.app" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/calculator.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className="portfolio-title w-title">Calc-web</h2>
+                           <a href="https://calc-prj.netlify.app" ><button type="button" class="btn btn-outline-warning">View</button></a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>Card 2</h4>
-                    <p>Card</p>
-                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Card 2"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://github.com/timfel20/Felicia-language-school" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/port1.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className="portfolio-title w-title">Language school</h2>
+                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" class="btn btn-outline-warning">Github</button></a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>Web 2</h4>
-                    <p>Web</p>
-                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Web 2"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+              
+               {/*  <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/work-5.jpg" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className="w-title">Studio Lena Mado</h2>
+                           <button type="button" class="btn btn-outline-danger">Danger</button>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/work-5.jpg" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className="w-title">Studio Lena Mado</h2>
+                           <button type="button" class="btn btn-outline-danger">Danger</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div> */}
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>App 3</h4>
-                    <p>App</p>
-                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="App 3"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                </div>
+            </div>
+            <div className="container">        
+                <div className="row">                               
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://tttf-website.netlify.app"  className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img style={{"min-height": "132px"}} src="assets/img/felinc.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className=" portfolio-title w-title">FELInc web</h2>
+                          <a href="https://tttf-website.netlify.app"> <button type="button" class="btn btn-outline-warning">View</button></a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>Card 1</h4>
-                    <p>Card</p>
-                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Card 1"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://github.com/timfel20/shopping-cart"  className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img style={{"min-height": "132px"}} src="assets/img/symfonycart.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className=" portfolio-title w-title">Symfony shopping cart</h2>
+                          <a href="https://github.com/timfel20/shopping-cart"> <button type="button" class="btn btn-outline-warning">Github</button></a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>Card 3</h4>
-                    <p>Card</p>
-                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Card 3"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                {/*
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://calc-prj.netlify.app" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/calculator.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className="portfolio-title w-title">Calc-web</h2>
+                           <a href="https://calc-prj.netlify.app" ><button type="button" class="btn btn-outline-warning">View</button></a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt=""/>
-                    <div className="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Web 3"><i className="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bi bi-link"></i></a>
+                
+                <div className="col-md-4">
+                    <div className="work-box">
+                    <a href="https://github.com/timfel20/Felicia-language-school" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                        <div className="work-img">
+                        <img src="assets/img/port1.png" alt="" className="img-fluid"/>
+                        </div>
+                    </a>
+                    <div className="work-content">
+                        <div className="row">
+                        <div className="col-sm-8">
+                            <h2 className="portfolio-title w-title">Language school</h2>
+                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" class="btn btn-outline-warning">View</button></a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-
+                */}
+               
                 </div>
-
             </div>
        </section>
+       
     )
 }
