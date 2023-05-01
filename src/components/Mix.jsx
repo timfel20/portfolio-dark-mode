@@ -1,5 +1,5 @@
 import { useWindowSize } from 'react-use';
-import { Slider } from './Slider';
+import { Slider } from './ImageSlider';
 import { Service } from './Service';
 
 export function Mix() {

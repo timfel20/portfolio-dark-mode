@@ -1,0 +1,20 @@
+{
+    "home": "HOME",
+    "aboutmehome": "ABOUT",
+    "learnmore": "Learn More",
+    "aboutme" : "About me",
+    "lovecreativity": "I love creativity. Seeing my thoughts being brought to life and projected into admiration is my goal. I find coding interesting and love the logical part of it.",
+    "fullstackdeveloper": "I am a full-stack web developer with passion for building admirable websites and applications. Specialized in PHP, Angular and React with a knowledge of Java and other technologies necessary for having a clean, relieable code and working in a team.",
+    "TECHNOLOGIES": "TECHNOLOGIES",
+    "PORTFOLIO": "PORTFOLIO", 
+    "view": "view",
+    "OTHERINTERESTS": "OTHER INTERESTS", 
+    "contact": "CONTACT",
+    "photography": "PHOTOGRAPHY",
+    "videogames": "VIDEO GAMES",
+    "writing": "WRITING",
+    "barcelona": "Barcelona, Spain",
+    "sendaMessage": "Send a Message",
+    "slotforme": "Do you have a slot for me? Feel free to fill the form and send me an Email",
+    "madewithlove": "Made with love"
+}

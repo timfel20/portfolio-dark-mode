@@ -12,7 +12,7 @@ export function About(){
                             </h5>
                             </div>
                             <div className="about-img">
-                                <img src="assets/img/fel-img.jpg" className="img-fluid-about rounded-circle b-shadow-a" alt=""/>
+                                <img src="assets/img/fel-img3.jpg" className="img-fluid-about rounded-circle b-shadow-a" alt=""/>
                             </div>
                             <p className="lead">
                              I love creativity. Seeing my thoughts being brought to life and projected into admiration is my goal. I find

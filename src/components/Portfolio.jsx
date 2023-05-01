@@ -24,7 +24,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className=" portfolio-title w-title">Pokemon Api</h2>
-                          <a href="https://felicia-portfolio-240c06.netlify.app"><button type="button" class="btn btn-outline-warning">View</button></a> 
+                          <a href="https://felicia-portfolio-240c06.netlify.app"><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a> 
                         </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Calc-web</h2>
-                           <a href="https://calc-prj.netlify.app" ><button type="button" class="btn btn-outline-warning">View</button></a>
+                           <a href="https://calc-prj.netlify.app" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Language school</h2>
-                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" class="btn btn-outline-warning">Github</button></a>
+                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" class="btn btn-outline-warning" target="_blank">Github</button></a>
                         </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ export function Portfolio(){
                 <div className="row">                               
                 <div className="col-md-4">
                     <div className="work-box">
-                    <a href="https://tttf-website.netlify.app"  className="portfolio-lightbox">
+                    <a href="https://tttf-website.netlify.app"  className="portfolio-lightbox" >
                         <div className="work-img">
                         <img style={{"min-height": "132px"}} src="assets/img/felinc.png" alt="" className="img-fluid"/>
                         </div>
@@ -115,7 +115,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className=" portfolio-title w-title">FELInc web</h2>
-                          <a href="https://tttf-website.netlify.app"> <button type="button" class="btn btn-outline-warning">View</button></a>
+                          <a href="https://tttf-website.netlify.app"> <button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className=" portfolio-title w-title">Symfony shopping cart</h2>
-                          <a href="https://github.com/timfel20/shopping-cart"> <button type="button" class="btn btn-outline-warning">Github</button></a>
+                          <a href="https://github.com/timfel20/shopping-cart"> <button type="button" class="btn btn-outline-warning" target="_blank">Github</button></a>
                         </div>
                         </div>
                     </div>
