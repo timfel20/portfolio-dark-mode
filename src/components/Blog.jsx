@@ -13,7 +13,7 @@ export function Blog(){
                 </div>
                 </div>
                 <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4" id="more-interests" >
                     <div className="card card-blog">
                     <div className="card-img">
                         <img src="assets/img/phptog1.jpg" alt="" className="img-fluid-blog"/>
@@ -27,7 +27,7 @@ export function Blog(){
                     </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4" id="more-interests" >
                     <div className="card card-blog">
                     <div className="card-img">
                         <img src="assets/img/video-game.png" alt="" className="img-fluid-blog"/>
@@ -41,7 +41,7 @@ export function Blog(){
                     </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4" id="more-interests" >
                     <div className="card card-blog">
                     <div className="card-img">
                         <img src="assets/img/writing.jpg" alt="" className="img-fluid-blog"/>
@@ -57,6 +57,7 @@ export function Blog(){
                 </div>
                 </div>
             </div>
+           
         </section>
     )
 }

@@ -49,7 +49,7 @@ export function Contact(){
                                 </div>
                                 <div className="col-md-12">
                                     <div className="form-group">
-                                    <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                    <textarea className="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
                                     </div>
                                 </div>
                                {/*  <div className="col-md-12 text-center my-3">
@@ -67,7 +67,7 @@ export function Contact(){
                         <div className="col-md-6 mt-4">
                             <div className="more-info">
                             <p className="lead">
-                              Do you have a slot for me? Feel free to fill the form and send me an Email
+                              Send me a message. I'm interested in new oportunities
                             </p>
                             <ul className="list-ico">
                                 <li><span className="bi bi-geo-alt"></span>Barcelona, Spain</li>
@@ -77,7 +77,7 @@ export function Contact(){
                             <div className="socials">
                             <ul>
                                 <li><a href="https://github.com/timfel20"><span className="ico-circle"><i className="bi bi-github"></i></span></a></li>
-                                <li><a href="https://linkedin.com/in/felicia-o-8987b1123"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
+                                <li><a href="https://linkedin.com/in/felicia-o"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
                             </ul>
                             </div>
                         </div>
