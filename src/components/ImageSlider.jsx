@@ -22,7 +22,7 @@ export function ImageSlider(){
       };
 
     return(
-        <section id="services" className="slider pt-5 route sect-pt4">         
+        <section id="services" className="sliderr pt-5 route sect-pt4">         
             <div className="row">
                 <div className="col-sm-12">
                     <div className="title-box text-center">

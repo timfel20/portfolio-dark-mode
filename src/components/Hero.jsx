@@ -11,7 +11,7 @@ export function Hero(){
                   <h2 className="hero-title-second">FELICIA FOLA</h2>
                   <p className="hero-subtitle mb-5"><span className="typed" data-typed-items="Full Stack Web Developer"></span></p>
                 {/*   <p className="pt-12"><a className="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> */}
-                <a href="#about">
+                <a className="js-scroll" href="#about">
                   <button class="ui-btn" >
                     
                   <span>
