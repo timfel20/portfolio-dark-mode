@@ -24,7 +24,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Star Wars Api</h2>
-                           <a href="https://filter-api-starwars.netlify.app/" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://filter-api-starwars.netlify.app/" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Calculator</h2>
-                           <a href="https://calc-prj.netlify.app" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://calc-prj.netlify.app" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Laravel Language School</h2>
-                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" class="btn btn-outline-warning" target="_blank">Github</button></a>
+                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" className="btn btn-outline-warning" target="_blank">Github</button></a>
                         </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="w-title">Studio Lena Mado</h2>
-                           <button type="button" class="btn btn-outline-danger">Danger</button>
+                           <button type="button" className="btn btn-outline-danger">Danger</button>
                         </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="w-title">Studio Lena Mado</h2>
-                           <button type="button" class="btn btn-outline-danger">Danger</button>
+                           <button type="button" className="btn btn-outline-danger">Danger</button>
                         </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className=" portfolio-title w-title">Frontend Design</h2>
-                          <a href="https://tttf-website.netlify.app"> <button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                          <a href="https://tttf-website.netlify.app"> <button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className=" portfolio-title w-title">Symfony Shopping Cart</h2>
-                          <a href="https://github.com/timfel20/shopping-cart"> <button type="button" class="btn btn-outline-warning" target="_blank">Github</button></a>
+                          <a href="https://github.com/timfel20/shopping-cart"> <button type="button" className="btn btn-outline-warning" target="_blank">Github</button></a>
                         </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className=" portfolio-title w-title">Pokemon Api</h2>
-                          <a href="https://felicia-portfolio-240c06.netlify.app"><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a> 
+                          <a href="https://felicia-portfolio-240c06.netlify.app"><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a> 
                         </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Javascript Shopping Cart</h2>
-                           <a href="https://shopping-cart-project-two.netlify.app" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://shopping-cart-project-two.netlify.app" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Calculator 2</h2>
-                           <a href="https://calculator-two.netlify.app" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://calculator-two.netlify.app" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Shopping List</h2>
-                           <a href="https://shopping-list-javascript.netlify.app" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://shopping-list-javascript.netlify.app" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -217,7 +217,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Software Models Blog</h2>
-                           <a href="https://software-dev-model.netlify.app" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://software-dev-model.netlify.app" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Firezilla Manual Blog</h2>
-                           <a href="https://firezilla-manual.netlify.app/" ><button type="button" class="btn btn-outline-warning" target="_blank">View</button></a>
+                           <a href="https://firezilla-manual.netlify.app/" ><button type="button" className="btn btn-outline-warning" target="_blank">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -252,7 +252,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Calc-web</h2>
-                           <a href="https://calc-prj.netlify.app" ><button type="button" class="btn btn-outline-warning">View</button></a>
+                           <a href="https://calc-prj.netlify.app" ><button type="button" className="btn btn-outline-warning">View</button></a>
                         </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@ export function Portfolio(){
                         <div className="row">
                         <div className="col-sm-8">
                             <h2 className="portfolio-title w-title">Language school</h2>
-                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" class="btn btn-outline-warning">View</button></a>
+                           <a href="https://github.com/timfel20/Felicia-language-school"><button type="button" className="btn btn-outline-warning">View</button></a>
                         </div>
                         </div>
                     </div>

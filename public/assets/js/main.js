@@ -223,7 +223,7 @@
 })()
 
 
-var carousel = document.querySelector('.slider');
+/* var carousel = document.querySelector('.slider');
 var carouselInner = document.querySelector('.slide-track');
 var startXx;
 var x;
@@ -253,7 +253,7 @@ carousel.addEventListener("mousemove", (e) => {
  // aouside container - inner content
   carouselInner.style.left = `${x - startXx}px`;
   checkSlide();
-});
+}); */
 
 var checkSlide = () =>{
   outer = carousel.getBoundingClientRect();

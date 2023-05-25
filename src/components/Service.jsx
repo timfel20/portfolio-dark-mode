@@ -2,10 +2,10 @@ import react from "react";
 export function Service(){
     return(
         <section id="services" className="services-mf pt-5 route">
-           <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
+           <div className="row">
+          <div className="col-sm-12">
+            <div className="title-box text-center">
+              <h3 className="title-a">
                 Technologies
               </h3>
             </div>

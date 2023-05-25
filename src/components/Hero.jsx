@@ -12,7 +12,7 @@ export function Hero(){
                   <p className="hero-subtitle mb-5"><span className="typed" data-typed-items="Full Stack Web Developer"></span></p>
                 {/*   <p className="pt-12"><a className="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> */}
                 <a className="js-scroll" href="#about">
-                  <button class="ui-btn" >
+                  <button className="ui-btn" >
                     
                   <span>
                     Learn More 
@@ -23,7 +23,7 @@ export function Hero(){
                 </div>
               </div>
             </div>
-            {/* <img class="svg-wave" src="assets/img/wave (3).svg" alt="" />  */}
+            {/* <img className="svg-wave" src="assets/img/wave (3).svg" alt="" />  */}
        </div>
        
     )
