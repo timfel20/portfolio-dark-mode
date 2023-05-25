@@ -17,9 +17,9 @@ function App() {
     <script src=
    "./assets/vendor/bootstrap/js/bootstrap.bundle.min.js" 
     type="text/javascript" />
-    <script src=
+    {/* <script src=
    ".assets/vendor/glightbox/js/glightbox.min.js" 
-    type="text/javascript" />
+    type="text/javascript" /> */}
     <script src=
    "./assets/vendor/swiper/swiper-bundle.min.js" 
     type="text/javascript" />
