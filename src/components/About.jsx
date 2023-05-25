@@ -13,7 +13,7 @@ export function About(){
                             </h5>
                             </div>
                             <div className="about-img">
-                                <img src="assets/img/fel-img3.jpg" className="img-fluid-about rounded-circle b-shadow-a" alt=""/>
+                                <img src="assets/img/IMG-8059.jpg" className="img-fluid-about rounded-circle b-shadow-a" alt="my image"/>
                             </div>
                           {/*   <p className="lead">
                              I love creativity. Seeing my thoughts being brought to life and projected into admiration is my goal. I find
@@ -26,7 +26,7 @@ export function About(){
                             I have created an application with React, Javascript, Spring and Laravel which had given me a very deep knowledge about Javascript and how to use back end with front end
                             </p> */}
                               <p className="lead">
-                              I'm a passionate web developer specializing in Angular, React, and PHP. With a strong foundation in front-end development. I love bringing ideas to life through clean and efficient code.
+                              I'm a passionate web developer specializing in Angular, React and PHP. With a strong foundation in front-end and back-end development. I love bringing ideas to life through clean and efficient code.
                             </p>
                             <p className="lead">
                               My journey into web development started with a curiosity for the creative possibilities of the digital world.
@@ -37,6 +37,8 @@ export function About(){
                             </p>
                             <p className="lead">
                             I believe that creativity fuels innovation, and I'm constantly seeking inspiration from various sources to enhance my work.
+                            </p>
+                            <p className="lead">
                             If you're looking for a dedicated and versatile web developer who brings a fresh perspective to every project, I'd love to connect and discuss how we can work together. Feel free to reach out to me.
                             </p>
                             <p className="lead">
